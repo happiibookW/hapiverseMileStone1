@@ -1,0 +1,5 @@
+[05-Jul-2023 05:09:41 UTC] PHP Fatal error:  Uncaught UnexpectedValueException: creating archive "/home/hapiverse/public_html/hapiverse/vendor/paragonie/random_compat/dist/random_compat.phar" disabled by the php.ini setting phar.readonly in /home/hapiverse/public_html/hapiverse/vendor/paragonie/random_compat/other/build_phar.php:12
+Stack trace:
+#0 /home/hapiverse/public_html/hapiverse/vendor/paragonie/random_compat/other/build_phar.php(12): Phar->__construct('/home/hapiverse...', 256, 'random_compat.p...')
+#1 {main}
+  thrown in /home/hapiverse/public_html/hapiverse/vendor/paragonie/random_compat/other/build_phar.php on line 12

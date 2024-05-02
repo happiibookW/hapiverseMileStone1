@@ -1,0 +1,7 @@
+application/config/config.php
+application/config/database.php
+application/public/business
+application/public/groupdoc
+application/public/images
+application/public/postdoc
+application/public/userdoc

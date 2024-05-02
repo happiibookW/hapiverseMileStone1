@@ -1,0 +1,56 @@
+[07-Jun-2023 09:15:30 UTC] PHP Fatal error:  Uncaught Error: Interface "ParagonIE\ConstantTime\EncoderInterface" not found in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base32.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base32.php on line 38
+[07-Jun-2023 09:17:03 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE\ConstantTime\Base32" not found in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base32Hex.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base32Hex.php on line 34
+[07-Jun-2023 09:18:48 UTC] PHP Fatal error:  Uncaught Error: Interface "ParagonIE\ConstantTime\EncoderInterface" not found in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base64.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base64.php on line 38
+[07-Jun-2023 09:20:15 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE\ConstantTime\Base64" not found in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base64DotSlash.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base64DotSlash.php on line 34
+[07-Jun-2023 09:21:50 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE\ConstantTime\Base64" not found in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base64DotSlashOrdered.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base64DotSlashOrdered.php on line 34
+[07-Jun-2023 09:23:30 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE\ConstantTime\Base64" not found in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base64UrlSafe.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base64UrlSafe.php on line 34
+[07-Jun-2023 09:31:54 UTC] PHP Fatal error:  Uncaught Error: Interface "ParagonIE\ConstantTime\EncoderInterface" not found in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Hex.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Hex.php on line 35
+[06-Jul-2023 11:52:35 UTC] PHP Fatal error:  Uncaught Error: Interface "ParagonIE\ConstantTime\EncoderInterface" not found in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base32.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base32.php on line 38
+[06-Jul-2023 12:11:33 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE\ConstantTime\Base32" not found in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base32Hex.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base32Hex.php on line 34
+[06-Jul-2023 22:42:26 UTC] PHP Fatal error:  Uncaught Error: Interface "ParagonIE\ConstantTime\EncoderInterface" not found in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base64.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base64.php on line 38
+[06-Jul-2023 22:45:00 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE\ConstantTime\Base64" not found in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base64DotSlash.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base64DotSlash.php on line 34
+[06-Jul-2023 22:47:25 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE\ConstantTime\Base64" not found in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base64DotSlashOrdered.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base64DotSlashOrdered.php on line 34
+[06-Jul-2023 22:56:25 UTC] PHP Fatal error:  Uncaught Error: Class "ParagonIE\ConstantTime\Base64" not found in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base64UrlSafe.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Base64UrlSafe.php on line 34
+[07-Jul-2023 00:27:43 UTC] PHP Fatal error:  Uncaught Error: Interface "ParagonIE\ConstantTime\EncoderInterface" not found in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Hex.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/hapiverse/public_html/hapiverse/vendor/paragonie/constant_time_encoding/src/Hex.php on line 35

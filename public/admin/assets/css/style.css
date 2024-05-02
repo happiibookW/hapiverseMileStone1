@@ -1,0 +1,224 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-SemiBold.eot");
+  src: url("../fonts/montserrat/Montserrat-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat/Montserrat-SemiBold.woff2") format("woff2"), url("../fonts/montserrat/Montserrat-SemiBold.woff") format("woff"), url("../fonts/montserrat/Montserrat-SemiBold.ttf") format("truetype"), url("../fonts/montserrat/Montserrat-SemiBold.svg#Montserrat-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat/Montserrat-Bold.eot");
+  src: url("../fonts/montserrat/Montserrat-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat/Montserrat-Bold.woff2") format("woff2"), url("../fonts/montserrat/Montserrat-Bold.woff") format("woff"), url("../fonts/montserrat/Montserrat-Bold.ttf") format("truetype"), url("../fonts/montserrat/Montserrat-Bold.svg#Montserrat-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oleo";
+  src: url("../fonts/oleo/OleoScriptSwashCaps-Bold.eot");
+  src: url("../fonts/oleo/OleoScriptSwashCaps-Bold?#iefix") format("embedded-opentype"), url("../fonts/oleo/OleoScriptSwashCaps-Bold.woff2") format("woff2"), url("../fonts/oleo/OleoScriptSwashCaps-Bold.woff") format("woff"), url("../fonts/oleo/OleoScriptSwashCaps-Bold.ttf") format("truetype"), url("../fonts/oleo/OleoScriptSwashCaps-Bold.svg#OleoScriptSwashCaps-Bold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+body .card {
+  border-radius: 16px;
+  border: none;
+}
+body .card .card-title {
+  font-size: 16px;
+  color: #002333;
+  margin-bottom: 8px;
+}
+body .card .card-text {
+  font-size: 12px;
+  color: #b4bec9;
+  margin-bottom: 0;
+}
+body .nav-tabs-vertical {
+  flex-direction: column;
+  border: none;
+}
+body .nav-tabs-vertical .nav-item .nav-link {
+  font-weight: 600;
+  padding: 10px 16px;
+  border: none;
+  width: 100%;
+  text-align: start;
+  color: #002333;
+  border-radius: 8px;
+  background-color: #ffffff !important;
+}
+body .nav-tabs-vertical .nav-item .nav-link:hover {
+  color: #696cff;
+  background-color: #e4e4ff !important;
+}
+body .nav-tabs-vertical .nav-item .nav-link.active {
+  color: #696cff;
+  background-color: #e4e4ff !important;
+}
+body .input-wrapper {
+  margin-bottom: 12px;
+}
+body .custom-card-header {
+  border-bottom: 1px solid rgba(180, 190, 201, 0.2);
+  padding-bottom: 24px;
+}
+body .title {
+  font-size: 28px;
+  margin-bottom: 0;
+}
+body .user-img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+  border-radius: 50%;
+}
+body .email-user-list {
+  padding: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+body .email-user-list .user-item:last-child .card {
+  border-bottom: none;
+}
+body .email-user-list .card {
+  background-color: transparent;
+  border-radius: 0;
+  transition: 0.4s;
+  box-shadow: none;
+  border-bottom: 1px solid #e4e4ff;
+}
+body .email-user-list .card:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+  background-color: #e4e4ff;
+  transform: scale(1.01);
+  border-bottom: none;
+}
+body .email-user-list .card .card-body {
+  padding: 16px;
+}
+body .email-user-list .card .card-body .user-img {
+  width: 40px;
+  height: 40px;
+}
+body .email-user-list .card .card-body .mail-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+body .email-user-list .card .card-body .mail-status {
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #696cff;
+  font-size: 8px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .emails-list {
+  height: 100%;
+  min-height: 300px;
+  max-height: 400px;
+  margin-bottom: 20px;
+  overflow-y: auto;
+}
+body .emails-list .accordion-item {
+  border: none;
+  border-bottom: 1px solid rgba(180, 190, 201, 0.2);
+  border-radius: 0;
+}
+body .emails-list .accordion-item:last-child {
+  border-bottom: none;
+}
+body .emails-list .accordion-item .accordion-button {
+  color: #002333;
+  background-color: #ffffff;
+  box-shadow: none;
+  padding: 12px;
+}
+body .emails-list .accordion-item .accordion-button:hover {
+  background-color: #e4e4ff;
+}
+body .emails-list .accordion-item .accordion-button::after {
+  display: none;
+}
+body .emails-list .accordion-item .accordion-button .truncate {
+  display: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px;
+  color: #b4bec9;
+}
+body .emails-list .accordion-item .accordion-button.collapsed .truncate {
+  display: block;
+}
+body .emails-list .accordion-item .accordion-body {
+  padding: 12px;
+}
+body .richtexteditor {
+  margin-bottom: 12px;
+}
+body .modal .modal-content {
+  border-radius: 16px;
+}
+@media (max-width: 991px) {
+  body .btn {
+    padding: 10px 16px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  body .form-control {
+    padding: 10px 16px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  body .nav-tabs-vertical {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border: none;
+  }
+  body .nav-tabs-vertical .nav-item .nav-link {
+    font-size: 14px;
+    padding: 10px 14px;
+    white-space: nowrap;
+  }
+  body .card {
+    border-radius: 16px;
+    border: none;
+    margin-bottom: 12px;
+  }
+  body .card .card-body {
+    padding: 12px;
+  }
+  body .card .card-title {
+    font-size: 14px;
+  }
+  body .card .card-text {
+    font-size: 10px;
+  }
+}
+@media (max-width: 767px) {
+  body .mail .title {
+    font-size: 22px;
+  }
+  body .mail .user-img {
+    width: 30px;
+    height: 30px;
+  }
+  body .mail .email-user-list .card .card-body {
+    padding: 12px;
+  }
+  body .mail .email-user-list .card .card-body .mail-text {
+    max-width: 130px;
+  }
+  body .mail .emails-list .accordion-item .accordion-button .truncate {
+    max-width: 160px;
+  }
+}/*# sourceMappingURL=style.css.map */

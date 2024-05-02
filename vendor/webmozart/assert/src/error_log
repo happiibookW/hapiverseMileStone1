@@ -1,0 +1,1 @@
+[05-Jul-2023 19:13:03 UTC] PHP Fatal error:  Trait "Webmozart\Assert\Mixin" not found in /home/hapiverse/public_html/hapiverse/vendor/webmozart/assert/src/Assert.php on line 33
